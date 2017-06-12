@@ -96,7 +96,7 @@ class Index:
 
     def parse_songs_artists_tree(self):
         ''' returns the title, artist and lyrics'''
-        path = '../1000a-iartist/750 a-i artist'
+        path = '1000a-iartist/750 a-i artist'
         artists, songs, lyrics = [], [], []
         artists_tree = Tree()
         songs_tree = Tree()
@@ -191,13 +191,13 @@ class Index:
 
 
 def main():
-    path= '../1000a-iartist/750 a-i artist'
+    path= '/1000a-iartist/750 a-i artist'
     #Read Arib's file
     #artists, songs, lyrics = Index.parse_collection()
     artists_tree,songs_tree = Index().parse_songs_artists_tree()
     artists_tree.printTree()
     songs_tree.printTree()
+    print(artists_tree.root)
 #    for index, song in enumerate(artists):
 #        print song
 		
-main()

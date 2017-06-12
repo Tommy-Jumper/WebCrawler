@@ -39,18 +39,21 @@ def search_lyrics(word, tree, prioList):
 #------------------------------------------------------------------------------
 
 def find(tree, word):
-    return tree.findNode(tree.root, word)
+    return findNode(tree.root, word)
     
-def findNode(tree, node, word, parent=None):
+def findNode(node, word, parent=None):
  
     if node is None:
         return None
-    elif word == node.val:
+    elif word == node.value:
+        print(node.value)
         return node
-    elif word < node.val:
-        return tree.findNode(node.leftChild, word)
+    elif word < node.value:
+        print(node.value)
+        return findNode(node.leftChild, word)
     else:
-        return tree.findNode(node.rightChild, word)
+        print(node.value)
+        return findNode(node.rightChild, word)
     
 def findFile(node):
     
