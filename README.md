@@ -1,3 +1,3 @@
-# WebCrawler
+Endlich :-) Hi Emely, du wirst dich wahrscheinlich nicht mehr an mich erinnern, wir haben uns im Flug von Shanghai nach Moskau kennengelernt und uns dann noch auf dem Flughafen etwas unterhalten. Leider hat es mit der Kontaktaufnahme via Facebook nicht wirklich geklappt und somit versuche ich hier mal mein Glück. Ach ja, Thomas hier und wenn es bei dir jetzt ggf. Klick gemacht hat, dann würde ich sehr gern auf das Angebot der Currywurst zurückkommen und würde mich sehr freuen, wenn du dich bei mir meldest. Viel mehr möchte ich hier auch nicht schreiben und hoffe sehr, das du das irgendwann mal liest und mich kontaktierst. LG und vielleicht auf bald
 
-Implementation of a simple web crawler which crawls and indexes a music webpage. The artist, the title of the song and the lyrics are saved into a database. A GUI with search features is additionally provided.
+Thomas (Thomas_108@web.de)
